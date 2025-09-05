@@ -1,0 +1,71 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-block: 1.5rem;
+  border-style: solid;
+  border-width: 0.2rem;
+  color: rgb(0, 88, 195);
+}
+
+/************** style of text **********/
+
+p {
+  font-size: 1.2rem;
+  margin-block: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-family: "roboto_monoitalic";
+  src: url("robotomono-italic-variablefont_wght-webfont.woff2") format("woff2"),
+    url("robotomono-italic-variablefont_wght-webfont.woff") format("woff");
+  font-weight: 580;
+  font-style: normal;
+  font-size: 1.7rem;
+  margin-block: 0.6rem;
+  color: rgb(43, 171, 226);
+}
+
+h1 {
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.6rem;
+  color: rgb(0, 88, 195);
+  margin-block: 1.2rem;
+}
+
+ul {
+  background-color: rgb(182, 239, 255);
+  padding: 1.5rem;
+}
+
+/************ andet **********/
+main {
+  padding: 10px;
+}
+
+footer {
+  background-color: rgb(182, 239, 255);
+  padding: 1rem;
+}
+
+dd {
+  background-color: transparent;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+dt {
+  padding: 0.3rem;
+  background-color: rgb(242, 220, 255);
+  font-weight: 600;
+}
